@@ -15,6 +15,9 @@
 \setcounter{secnumdepth}{0}
 \begin{document}
 
+% TODO: future work, add standard units to formulas
+% ex: Work = W $\Rightarrow [W] = J = N \cdot m = \frac{kg \cdot m^2}{s^2}$
+
 \centering
 \pagenumbering{gobble}
 \maketitle
@@ -27,7 +30,7 @@
 
 \section{Bevegelseslære}
 \subsection{Rettlinjet bevegelse}
-Def. av aksjelerasjon: $a = \frac{d\Vec{v}}{dt}$
+Def. av akselerasjon: $a = \frac{d\Vec{v}}{dt}$
 
 \subsubsection{Bevegelsesformler}
 \begin{enumerate}
@@ -38,7 +41,7 @@ Def. av aksjelerasjon: $a = \frac{d\Vec{v}}{dt}$
 \end{enumerate}
 \section{Newtons Lover}
 \begin{enumerate}
-    \item $\sum{\Vec{F}} = 0 \Leftrightarrow \textbf{konstant akselerasjon }$
+    \item $\sum{\Vec{F}} = 0 \Leftrightarrow \textbf{konstant hastighet }$
     \item $\sum{\Vec{F}} = m\Vec{a} \Rightarrow \Vec{a} || \Vec{F}$
     \item $\Vec{F}_{AB} = \Vec{F}_{BA}$ \textbf{Kraft = Motkraft!}
 \end{enumerate}
@@ -113,7 +116,7 @@ Strømlinjene er kaotiske.\\
 $f = kv^2$
 
 \bigskip
-$$k = \frac{1}{2}\rho AC_d\cdot v^2$$
+$$k = \frac{1}{2}\rho AC_d$$
 \textbf{Konstanten $k$ sier noe om:}
 \begin{itemize}
     \item[-] Legemets form
@@ -247,7 +250,7 @@ Energi går \textbf{ikke tapt}:\\
 \bigskip
 \textbf{Momentet er bevart} før og etter støtprosessen. Kun indre krefter virker i kollisjonsøyeblikket.\\
 \bigskip
-Den kinetiske energien er \textbf{ikke bevart} etter støtprosessen som en direkte konsekvens av at energitapet er neglisjerbart.\\
+Den kinetiske energien er \textbf{bevart} etter støtprosessen som en direkte konsekvens av at energitapet er neglisjerbart.\\
 \bigskip
 
 \section{Rakettfremdrift}
@@ -332,7 +335,7 @@ $$I_{tot} = I_k + I_{CM} = \frac{2}{5}MR^2+Mr^2$$
 
 \underline{\textbf{Helt generelt:}}\\
 Steiners sats brukes til å beregne det totale treghetsmomentet til et legeme om en vilkårlig akse (akse 1) som er parallell med en akse (akse 2) som går gjennom legemets massesenter (CM).
-$$I_{tot} = I_0 + Md^2$$
+$$I_{tot} = I_0 + Mr^2$$
 \begin{figure} [H]
     \centering
     \includegraphics[height = 5cm]{images/steiner2.png}
@@ -355,11 +358,11 @@ Merk: sentripetalakselerasjonen bidrar \textbf{ikke} til å endre legemets baneh
 $$K = \frac{1}{2}(mr^2)\omega^2 = \frac{1}{2}I\omega^2$$
 Den rotasjonskinetiske energien \underline{\textbf{varierer}}:
 \begin{enumerate}
-    \item Ene og alene når avstanden $r$ ut fra rotasjonsaksen varierer. det vil si: hvor langt ut fra aksen punktpartikkelen befinner seg. Vinkelhastigheten $\omega$ kan være konstant.
+    \item Ene og alene når avstanden $r$ ut fra rotasjonsaksen varierer. Det vil si: hvor langt ut fra aksen punktpartikkelen befinner seg. Vinkelhastigheten $\omega$ kan være konstant.
     \item Ene og alene dersom massen $m$ endrer seg. Dette er i analogi med det lineære tilfellet.
 \end{enumerate}
 
-\subsection{Arbeid of effekt ved rotasjon}
+\subsection{Arbeid og effekt ved rotasjon}
 I det lineære tilfellet fant vi formelen $p = F\cdot v$ for effekten $p$.
 For en rotasjonsbevegelse blir formelen:
 $$P = \tau \cdot \omega$$
@@ -398,7 +401,7 @@ $$P = \tau \cdot \omega$$
     \includegraphics[height = 4cm]{images/roll.png}
     \caption{Rulling}
 \end{figure}
-Figruen viser et elgeme der massesenteret ($CM$) forflytter seg lineært rett samtidig som at alle masse-element roterer omkring dette massesenteret.\\
+Figruen viser et legeme der massesenteret ($CM$) forflytter seg lineært rett samtidig som at alle masse-element roterer omkring dette massesenteret.\\
 Den totale kinetiske energien for dette rullende hjulet, som stadig beveger seg lineært bortover er gitt ved:
 $$E_K = \frac{1}{2}mv^2_{CM}+\frac{1}{2}I\omega^2$$
 \begin{itemize}
@@ -464,7 +467,7 @@ $$\omega_ot = \omega_0T = 2\pi \Rightarrow T = \frac{2\pi}{\omega_0} = 2\pi \sqr
 
 
 \subsubsection{Frekvens $f$}
-Frekvensen $f$ angir hvor mange hele svinginger som klossen i figur 11 fullfører per sekund.
+Frekvensen $f$ angir hvor mange hele svinginger som klossen i figur 12 fullfører per sekund.
 $$f = \frac{1}{T} = \frac{\omega_o}{2\pi} = \frac{1}{2\pi}\sqrt{\frac{k}{m}} \Rightarrow \omega_0 = 2\pi f$$
 
 
@@ -482,7 +485,7 @@ Vinkelhastigheten $\omega$ \underline{\textbf{varierer}} under svingningen etter
 \bigskip
 \textbf{Svingefrekvens}\\
 Svingefrekvensen $\omega_0 = \sqrt{\frac{k}{m}}$ = \underline{konstant}.\\
-$\omega_0$ angir at klossen (figur 11) fullfører et konstant antall radianer ila. et bestemt tidsrom $t$.
+$\omega_0$ angir at klossen (figur 12) fullfører et konstant antall radianer ila. et bestemt tidsrom $t$.
 
 \subsection{Mekaniske pendler}
 \subsubsection{Den oscillerende pendelen}
@@ -492,7 +495,7 @@ $\omega_0$ angir at klossen (figur 11) fullfører et konstant antall radianer il
     \caption{Oscillerende pendel}
 \end{figure}
 
-Pendelen svinger på grunn av gravtiasjonskraften.
+Pendelen svinger på grunn av gravitasjonskraften.
 \begin{itemize}
     \item[] Svingefrekvens: $\omega_0 = \sqrt{\frac{g}{L}}$
     \item[] Periode: $T = \frac{2\pi}{\omega_0} = 2\pi\sqrt{\frac{L}{g}}$
@@ -544,9 +547,9 @@ Det virker en friksjonskraft mellom kloss og materialet klossen er i kontakt med
 $$md''+bx'+kx=0$$
 \underline{3 ulike løsninger:}
 \begin{enumerate}
-    \item Overdemping: $1-\frac{4mk}{b^2} > 0$
-    \item Kritisk demping: $1-\frac{4mk}{b^2} = 0$ (Reell løsning)
-    \item Demped svingning $1-\frac{4mk}{b^2} < 0$ (Komplekse løsninger)
+    \item Overdemping: $1-\frac{4mk}{b^2} > 0$ (To reelle løsninger
+    \item Kritisk demping: $1-\frac{4mk}{b^2} = 0$ (En reell løsning)
+    \item Demped svingning $1-\frac{4mk}{b^2} < 0$ (Kompleks løsning)
 \end{enumerate}
 \subsubsection{Overdemping}
 Kjennetegnet på et overdempet system: $4mk < b^2$
@@ -613,7 +616,7 @@ $$y(x,t) = A sin(kx-\omega t + \phi)$$
     \item[-] $A$ angir amplituden til bølgen.
     \item[-] $\omega = 2\pi v$: Vinkelfrekvens
     \item[-] Bølgetallet $k = \frac{2\pi}{\lambda}$: antall bølger per periode $2 \pi$. 
-    \item[-] $t$ angir den tiden en bølgebruker på å forplante seg langs strengen.
+    \item[-] $t$ angir den tiden en bølge bruker på å forplante seg langs strengen.
     \item[-] $\phi$: fasekonstanten
     \item[-] $y$ angir den den vertikale forflytningen av en vilkårlig del av strengen på et vilkårlig tidspunkt $t$
 \end{itemize}
@@ -648,7 +651,7 @@ Bølgehastigheten er konstant! Kreftene på begge sider av bølgen strammer opp 
 For et masseelement på strengen:
 \begin{itemize}
     \item[] $\Delta s \approx$ sirkelbue med radius $R$
-    \item[] Masse elementet erfarer en sentripetalkraft $F_r$
+    \item[] Masseelementet erfarer en sentripetalkraft $F_r$
     \item[] Sentripetalakselerasjon: $a_r = \frac{v^2}{R}$
 \end{itemize}
 
@@ -680,14 +683,14 @@ $k = \frac{2\pi}{\lambda}$\\
 Den stående bølgen blir da:
 $$y = y_1+y_2 = A_0sin(kx-\omega t) +  A_0 sin(kx+\omega t)$$
 $$\Updownarrow$$
-$$y = (2A_sin(kx)\cdot cos(\omega t)$$
+$$y = (2A_0sin(kx)\cdot cos(\omega t)$$
 \begin{itemize}
-    \item [-] $(2A_sin(kx)$ beskriver den vertikale harmoniske svingningen gitt i enhver posisjon x langs x-aksen
-    \item [-] $cos(\omega t))$ beskriver hvor lang tid $t$ det tar å fullføre en hel harmonisk svingning ($t=1$)
+    \item [-] $(2A_0sin(kx)$ beskriver den vertikale harmoniske svingningen gitt i enhver posisjon x langs x-aksen
+    \item [-] $cos(\omega t)$ beskriver hvor lang tid $t$ det tar å fullføre en hel harmonisk svingning ($t=1$)
 \end{itemize}
 
 Vi kan finne maksimal amplitude ved å sette $A = 1$ og regne ut for $x$.\\
-Vi kan finne nodene (punktet mellom bølgene som står i ro) ved å finne $x$ for $(2A_sin(kx) = 0$. $x = n\cdot \frac{\lambda}{2}$
+Vi kan finne nodene (punktet mellom bølgene som står i ro) ved å finne $x$ for $(2A_0sin(kx) = 0$. $x = n\cdot \frac{\lambda}{2}$
 
 \subsubsection{Refleksjon og transmisjon}
 Newtons 3. lov! \underline{\textbf{Kraft = motkraft}}
@@ -733,7 +736,7 @@ $$B = -\Delta p\cdot \frac{v}{\Delta v}$$
     \caption{Harmoniske trykkbølger}
 \end{figure}
 Trykkendring:
-$$\Delta p = -\delta v^2\frac{A\Delta S}{A\Delta x} = \delta v^2 S_m k sin (kx-\omega t) = \delta\cdot v\omega s_m sin(kx-\omega t)$$
+$$\Delta p = -\delta v^2\frac{A\Delta S}{A\Delta x} = \delta v^2 s_m k sin (kx-\omega t) = \delta\cdot v\omega s_m sin(kx-\omega t)$$
 
 
 \subsubsection{Intensiteten til en trykkbølge}
@@ -774,7 +777,7 @@ Doppler effekten beskriver hvordan en frekvensen av lyd-/lysbølge er avhengig r
     \includegraphics[width = 8cm]{images/doppler2.png}
     \caption{Dopplereffekten}
 \end{figure}
-$$f' = f\cdot (\frac{v+v_0}{v}) = f\cdot (1+\frac{v_0}{v}$$
+$$f' = f\cdot (\frac{v+v_0}{v}) = f\cdot (1+\frac{v_0}{v})$$
 Desto raskere du beveger deg mot de inkommende lydbølgene, desto flere bølgefronter rekker frem til deg ila. $t=1.0s$ og desto høyere frekvens $f'$ vil du registrere, og motsatt.
 
 \underline{\textbf{Lydkilden beveger seg mot deg}}:
