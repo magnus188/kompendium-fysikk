@@ -15,7 +15,4 @@ jobs:
         with:
           name: PDF
           path: main.pdf
-        name: push changes to remote
-        run: |
-            git add .github/workflows/main.pdf; git commit -m "new compiled pdf"
-            git push
+        
